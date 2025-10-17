@@ -193,15 +193,12 @@ Recall: ~ 89.1%
 mAP@50: ~ 95.1%
 
 mAP@50–95: ~ 81.5%
-
 on our custom traffic sign dataset.
 
 Correctly classifies speed limits, stop signs, and other common traffic symbols.
 
 
-Visualization of detected signs included in the notebook.
-
-👩‍💻 **Contributors**
+## 👩‍💻 **Contributors**
 
 #[Aditya](https://github.com/AdityaKr015)
 
