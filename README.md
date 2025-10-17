@@ -4,14 +4,14 @@ My first Machine Learning project built with my friend [Vaibhav](https://github.
 🚦 **Road Sign Detection using Deep Learning**
 
 
-📌 **Project Overview**
+## 📌 **Project Overview**
 
 
 This project focuses on detecting and classifying road signs from images using deep learning.
 The goal is to assist self-driving cars in understanding road environments by recognizing traffic signals, speed limits, and other signs.
 
 
-🛠️ **Features**
+## 🛠️ **Features**
 
 
 Real-time road sign detection.
@@ -21,13 +21,13 @@ Trained on labeled dataset of traffic signs.
 Supports classification of multiple road sign categories.
 
 
-**Implementation**
+## **Implementation**
 
 
 The implementation of the Object Detection project was carried out in a systematic manner, beginning with dataset preparation and ending with real-time detection results. The entire workflow was executed in Google Colab using GPU acceleration for efficient training and testing.
 
 
-1. **Dataset Integration**
+### 1. **Dataset Integration**
 
 •	The dataset was created and managed using Roboflow, which allowed image uploading, annotation, and preprocessing.
 
@@ -38,7 +38,7 @@ The implementation of the Object Detection project was carried out in a systemat
 •	The dataset was then imported into the Colab environment for model training.
 
 
-2. **Environment Setup**
+### 2. **Environment Setup**
  
 •	In Google Colab, the required dependencies were installed, including:
 
@@ -53,7 +53,7 @@ o	Roboflow API (for dataset access and integration)
 •	Project directories were created for organizing datasets, model weights, and results.
 
 
-3. **Model Training**
+### 3. **Model Training**
  
 •	The YOLOv8 model from Ultralytics was selected due to its high speed and accuracy.
 
@@ -68,7 +68,7 @@ o	Batch size: Optimized for available GPU memory.
 o	Learning rate: Tuned for stable convergence.
 
 
-4. **Model Validation**
+### 4. **Model Validation**
  
 •	After training, the model was validated on a separate test dataset.
 
@@ -83,7 +83,7 @@ o	mAP (mean Average Precision): Overall detection performance.
 •	The validation process helped evaluate how well the model generalized to unseen images.
 
 
-5. **Inference and Output**
+### 5. **Inference and Output**
  
 •	The trained YOLOv8 model was used for inference on new test images.
 
@@ -107,7 +107,7 @@ o	mAP (mean Average Precision): Overall detection performance.
 
 
 
-**WORKFLOW FOR THIS PROJECT:**
+## **WORKFLOW FOR THIS PROJECT:**
 
 
 
@@ -116,7 +116,7 @@ o	mAP (mean Average Precision): Overall detection performance.
 
 
 
-📂 **Project Structure**
+## 📂 **Project Structure**
 
 ├── object_detection3.ipynb            # Main Jupyter Notebook
 
@@ -130,7 +130,7 @@ o	mAP (mean Average Precision): Overall detection performance.
 
 
 
-⚙️ **Tech Stack**
+## ⚙️ **Tech Stack**
 
 Language: Python
 
@@ -140,36 +140,36 @@ Tools: Google Colab
 
 
 
-📊 Dataset
+## 📊 Dataset
 
-Dataset used:
+### Dataset used:
 
 https://universe.roboflow.com/selfdriving-car-qtywx/self-driving-cars-lfjou
 
 Contains thousands of labeled images of road signs.
 
 
-🚀 **How to Run**
+## 🚀 **How to Run**
 
 
-Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/<your-username>/road-sign-detection.git
 cd road-sign-detection
 ```
 
-Install dependencies
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the Jupyter Notebook
+### Run the Jupyter Notebook
 ```
 jupyter notebook object_detection3.ipynb
 ```
 
 
-📈 **Results**
+## 📈 **Results**
 
 
 ![Demo](output.gif)
@@ -184,7 +184,7 @@ jupyter notebook object_detection3.ipynb
 
 
 
-Our model achieved:
+## Our model achieved:
 
 Precision: ~ 93.6%
 
