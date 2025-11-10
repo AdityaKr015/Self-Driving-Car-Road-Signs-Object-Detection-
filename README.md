@@ -16,7 +16,7 @@ The goal is to assist self-driving cars in understanding road environments by re
 
 Real-time road sign detection.
 
-Trained on labeled dataset of traffic signs.
+Bounding Box labeled objects with confidence.
 
 Supports classification of multiple road sign categories.
 
