@@ -165,7 +165,7 @@ pip install -r requirements.txt
 
 ### Run the Jupyter Notebook
 ```
-jupyter notebook object_detection3.ipynb
+jupyter notebook road-sign-detection.ipynb
 ```
 
 
