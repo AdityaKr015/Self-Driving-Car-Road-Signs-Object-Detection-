@@ -1,7 +1,6 @@
+# 🚦 **Road Sign Detection using Deep Learning**
+
 My first Machine Learning project built with my friend [Vaibhav](https://github.com/vaibhav410) for college project, where we developed a Deep Learning-based Road Sign Detection system. 
-
-
-🚦 **Road Sign Detection using Deep Learning**
 
 
 ## 📌 **Project Overview**
@@ -13,7 +12,6 @@ The goal is to assist self-driving cars in understanding road environments by re
 
 ## 🛠️ **Features**
 
-
 Real-time road sign detection.
 
 Bounding Box labeled objects with confidence.
@@ -23,19 +21,17 @@ Supports classification of multiple road sign categories.
 
 ## **Implementation**
 
-
-The implementation of the Object Detection project was carried out in a systematic manner, beginning with dataset preparation and ending with real-time detection results. The entire workflow was executed in Google Colab using GPU acceleration for efficient training and testing.
-
+The implementation of the Object Detection project was done in systematic manner, started with dataset preparation and ending with real time detection results.The entire workflow was executed in Google Colab for free NVIDIA Tesla T4 GPU for effecient and fast training and testing.
 
 ### 1. **Dataset Integration**
 
-•	The dataset was created and managed using Roboflow, which allowed image uploading, annotation, and preprocessing.
+•	The dataset was created and managed using Roboflow, which allowed image uploading, annotation, preprocessing, and data augmentation.
 
 •	Each image was annotated with bounding boxes marking the location of objects.
 
-•	The final dataset was exported in YOLO-compatible format (with training, validation, and test splits).
+•	The final dataset was exported in YOLO compatible format (with training, validation, and test splits).
 
-•	The dataset was then imported into the Colab environment for model training.
+•	The dataset was then imported into the Google Colab environment for model training.
 
 
 ### 2. **Environment Setup**
@@ -55,9 +51,9 @@ o	Roboflow API (for dataset access and integration)
 
 ### 3. **Model Training**
  
-•	The YOLOv8 model from Ultralytics was selected due to its high speed and accuracy.
+•	The YOLOv8m model from Ultralytics was selected due to its real time advantage, high speed and accuracy.
 
-•	Pre-trained YOLOv8 weights were used and fine-tuned on the custom dataset (transfer learning).
+•	Pre-trained YOLOv8 weights were used and fine tuned on the custom dataset (transfer learning).
 
 •	Training parameters:
 
@@ -91,9 +87,10 @@ o	mAP (mean Average Precision): Overall detection performance.
 
 •	Results showed that the model successfully detected multiple objects simultaneously and delivered accurate predictions.
 
-•	The outputs demonstrated the system’s ability to be applied in real-world scenarios such as surveillance, product detection, and automation tasks.
+•	The outputs demonstrated the system’s ability to be applied in real world scenarios such as surveillance, product detection, and automation tasks.
 
 
+# **Confusion Matrix & Results data**
 
 <img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/31116679-ccba-4da8-8bae-bff694e03a2a" />
 
@@ -107,7 +104,7 @@ o	mAP (mean Average Precision): Overall detection performance.
 
 
 
-## **WORKFLOW FOR THIS PROJECT:**
+## **WORKFLOW:**
 
 
 
@@ -122,7 +119,7 @@ o	mAP (mean Average Precision): Overall detection performance.
 
 ├── dataset/                           # Training & testing images
 
-├── models/                            # Saved models (if any)
+├── models/                            # Saved models 
 
 ├── requirements.txt                   # Dependencies
 
@@ -169,7 +166,7 @@ jupyter notebook road-sign-detection.ipynb
 ```
 
 
-## 📈 **Results**
+## 📈 **Outputs**
 
 
 ![Demo](output.gif)
@@ -193,7 +190,6 @@ Recall: ~ 89.1%
 mAP@50: ~ 95.1%
 
 mAP@50–95: ~ 81.5%
-on our custom traffic sign dataset.
 
 Correctly classifies speed limits, stop signs, and other common traffic symbols.
 
