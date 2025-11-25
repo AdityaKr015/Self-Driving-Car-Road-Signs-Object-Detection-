@@ -7,7 +7,7 @@ My first Machine Learning project built with my friend [Vaibhav](https://github.
 
 
 This project focuses on detecting and classifying road signs from images using deep learning.
-The goal is to assist self-driving cars in understanding road environments by recognizing traffic signals, speed limits, and other signs.
+The goal is to assist self driving cars in understanding road environments by recognizing traffic signals, speed limits, and other signs.
 
 
 ## 🛠️ **Features**
